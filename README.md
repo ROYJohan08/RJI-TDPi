@@ -64,4 +64,4 @@ Code pour une Raspberry pi connecté a une Creality Ender 3
 
 ## Partie 5 : Direct drive
 
-##Partie 6 : PETG, TPU et ABS
+## Partie 6 : PETG, TPU et ABS
