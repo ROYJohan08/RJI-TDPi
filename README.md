@@ -47,9 +47,9 @@ Code pour une Raspberry pi connecté a une Creality Ender 3
 - [X] Récuperez la carte microSD de la RPI.
 - [X] Installez Octoprint via [RaspberryPiImager](https://www.raspberrypi.com/software/).
 - [X] Initialisez octoprint puis Connectez-vous.
-- [X] Téléchargez et envoyer le fichier Backup dans "Paramètres>Backup&Restore".
+- [X] Téléchargez et envoyer le [fichier Backup](https://github.com/ROYJohan08/RJI-TDPi/raw/refs/heads/main/sources/backups/20260324-134532.zip) dans "Paramètres>Backup&Restore".
 - [X] Redémarrez la raspberry.
-- [X] Dans firmware updater ajouter le nouveau Firmware.
+- [X] Dans firmware updater ajouter le [nouveau Firmware](https://github.com/ROYJohan08/RJI-TDPi/raw/refs/heads/main/sources/Ender3-BLTouchFirmware.bin).
 - [X] Redémarrez l'imprimante.
 
 ## Partie 4 : Calibration.
