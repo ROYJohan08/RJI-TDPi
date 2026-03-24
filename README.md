@@ -23,21 +23,21 @@ Code pour une Raspberry pi connecté a une Creality Ender 3
 
 ## Partie 2 : Level up.
 
-- [X] Installez un roulement 608 dans ZAxisHolder.
-- [X] Installez un roulement 608 dans FilamentSensorPositionner.
-- [X] Installez le ZAxisHolder dans la fente 2040 du haut du chassis.
-- [X] Installez et vissez le ZAxisHolder au bout de l'extruder.
-- [X] Installez et vissez les silencieux sur les ventilateurs.
-- [X] Installez et vissez la Raspberry pi dans le RP2Holder_Base.
+- [X] Installez un roulement 608 dans [ZAxisGuide](https://github.com/ROYJohan08/RJI-TDPi/raw/refs/heads/main/sources/GCodes/ZAxisGuide.gcode).
+- [X] Installez un roulement 608 dans [FilamentHolder](https://github.com/ROYJohan08/RJI-TDPi/raw/refs/heads/main/sources/GCodes/FilamentHolder.gcode).
+- [X] Installez le [ZAxisGuide](https://github.com/ROYJohan08/RJI-TDPi/raw/refs/heads/main/sources/GCodes/ZAxisGuide.gcode) dans la fente 2040 du haut du chassis.
+- [X] Installez et vissez le [FilamentHolder](https://github.com/ROYJohan08/RJI-TDPi/raw/refs/heads/main/sources/GCodes/FilamentHolder.gcode) au bout de l'extruder.
+- [X] Installez et vissez les [FanCover](https://github.com/ROYJohan08/RJI-TDPi/raw/refs/heads/main/sources/GCodes/FanCover.gcode) sur les ventilateurs.
+- [X] Installez et vissez la Raspberry pi dans le [RPI2Case](https://github.com/ROYJohan08/RJI-TDPi/raw/refs/heads/main/sources/GCodes/RPI2Case.gcode).
 - [X] Connectez les cables aux différents relais et capteurs.
-- [X] Installez la camera dans le CAMHolder.
+- [X] Installez la camera dans le [RPI2CameraHolder](https://github.com/ROYJohan08/RJI-TDPi/raw/refs/heads/main/sources/GCodes/RPI2CameraHolder.gcode).
  - [X] Fixez la camera a la colle a chaud.
 - [X] Installez et vissez le bras de la camera.
 - [X] Connectez la caméra a la RPI.
-- [X] Installez et vissez le RP2Holder_Lid.
+- [X] Installez et vissez le [RPI2Case](https://github.com/ROYJohan08/RJI-TDPi/raw/refs/heads/main/sources/GCodes/RPI2Case.gcode).
 - [X] Vissez le tout sur le chassis gauche.
-- [X] Installer et vissez le 3DTouch sur le 3DTouchSupport
-- [X] Installez le 3DTouchSupport sur la tete d'impression.
+- [X] Installer et vissez le 3DTouch sur le [3DTouchSupport](https://github.com/ROYJohan08/RJI-TDPi/raw/refs/heads/main/sources/GCodes/3DTouch.gcode).
+- [X] Installez le [3DTouchSupport](https://github.com/ROYJohan08/RJI-TDPi/raw/refs/heads/main/sources/GCodes/3DTouch.gcode) sur la tete d'impression.
 - [X] Connectez le 3DTouch a la carte mère.
 - [X] Branchez l'alimentation de l'imprimante sur le relais de la RPI.
 - [ ] Branchez les mumières sur le second relais de la RPI.
