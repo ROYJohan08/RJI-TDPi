@@ -40,7 +40,6 @@ Code pour une Raspberry pi connecté a une Creality Ender 3
 - [X] Installez le [3DTouchSupport](https://github.com/ROYJohan08/RJI-TDPi/raw/refs/heads/main/sources/GCodes/3DTouch.gcode) sur la tete d'impression.
 - [X] Connectez le 3DTouch a la carte mère.
 - [X] Branchez l'alimentation de l'imprimante sur le relais de la RPI.
-- [ ] Branchez les mumières sur le second relais de la RPI.
 
 ## Partie 3 : Configuration.
 
@@ -60,8 +59,21 @@ Code pour une Raspberry pi connecté a une Creality Ender 3
   - [X] Dans Controle>Step>Extruder, prenez la actuelle/100*La quantité réellement extrudé et saisissez cette valeur.
   - [X] Sauvegardez la configuration.
 - [ ] Axe X et Y :
-- [ ] Axe Z :
+- [ ] Axe Z : 
 
-## Partie 5 : Direct drive
+# Partie 5 : Suite des amélioration.
 
-## Partie 6 : PETG, TPU et ABS
+- [ ] Changement des relais.
+ - [X] Achat d'un relais 3.3v 2 channel.
+ - [ ] Impression du support relais.
+ - [ ] Installation du relais.
+ - [ ] Cablage du relais.
+- [ ] Ajout d'une brosse.
+ - [ ] Impression du support.
+ - [ ] Installation de la brosse.
+ - [X] Programation du code.
+ - [ ] Ajustement du code.
+
+## Partie X : Direct drive
+
+## Partie X : PETG, TPU et ABS
