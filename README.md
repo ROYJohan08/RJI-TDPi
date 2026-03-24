@@ -13,8 +13,55 @@ Code pour une Raspberry pi connecté a une Creality Ender 3
 - [X] [PLA](https://www.amazon.fr/ELEGOO-Filament-Dimensional-Accuracy-Compatible/dp/B0F4871GP4/ref=sr_1_4_sspa?dib=eyJ2IjoiMSJ9.EUKdJhH8N5kMm-71FTptkxWOi6-Ke-pfjUPL8nlOxs6Bza2N8vPjbTCHHgX4zxrPYk3FHUluvWEsjPYghqBPyUbgCOxzjZ6uOBl27RFudAVFh8Jkhhff_0XKhb-Rhcr4Hmz8cs7NRZC3kaQFpRWyiBVrQ0rMwXfit46eQV1ftBOmG10zK9ENGsM2YQ5mWaYU_4U4CtG4Bk6aWdhkNJHaVPiGYitb8r6t_vAF8rLV4-4pi2TcTUuxQqQwJdKxhWyGJd-hvz64adsdW5_g7URnCSeVtF18fNkNXEiralwgSX8.tmTz7LD2ifngWGTYtosgB7Mv661MZ_SXZVsAwTPwQyY&dib_tag=se&keywords=PLA&qid=1774356015&sr=8-4-spons&aref=kQnNZl9jIx&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1).
 - [X] [Visserie M3](https://www.aliexpress.com/ssr/300000512/BundleDeals2?spm=a2g0o.productlist.main.2.70a3ruWkruWkJ6&productIds=1005009877872391:12000050454712739&pha_manifest=ssr&_immersiveMode=true&disableNav=YES&sourceName=SEARCHProduct&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009877872391%7C_p_origin_prod%3A&pvid=696283ab-6ddb-4792-877c-75eece452125).
 
-## Montage.
-- Montez la Créality Ender 3 semon le manuel.
-- Ajoutez le 3DTouch.
-- Branchez la Raspberry pi a l'imprimante en USB.
-- Branchez
+## Partie 1 : Premiers pas.
+
+- [X] Montez la Créality Ender 3 selons le manuel.
+- [X] Branchez l'imprimante.
+- [X] Récuperez la carte micro-SD et installez la sur un ordinateur.
+- [X] Téléchargez le pack de GCodes et décompressez le dans la carte SD.
+- [X] Mettez la carte Micro-SD dans l'imprimante et lancez un a un les impression.
+
+## Partie 2 : Level up.
+
+- [X] Installez un roulement 608 dans ZAxisHolder.
+- [X] Installez un roulement 608 dans FilamentSensorPositionner.
+- [X] Installez le ZAxisHolder dans la fente 2040 du haut du chassis.
+- [X] Installez et vissez le ZAxisHolder au bout de l'extruder.
+- [X] Installez et vissez les silencieux sur les ventilateurs.
+- [X] Installez et vissez la Raspberry pi dans le RP2Holder_Base.
+- [X] Connectez les cables aux différents relais et capteurs.
+- [X] Installez la camera dans le CAMHolder.
+ - [X] Fixez la camera a la colle a chaud.
+- [X] Installez et vissez le bras de la camera.
+- [X] Connectez la caméra a la RPI.
+- [X] Installez et vissez le RP2Holder_Lid.
+- [X] Vissez le tout sur le chassis gauche.
+- [X] Installer et vissez le 3DTouch sur le 3DTouchSupport
+- [X] Installez le 3DTouchSupport sur la tete d'impression.
+- [X] Connectez le 3DTouch a la carte mère.
+- [X] Branchez l'alimentation de l'imprimante sur le relais de la RPI.
+- [ ] Branchez les mumières sur le second relais de la RPI.
+
+## Partie 3 : Configuration.
+
+- [X] Récuperez la carte microSD de la RPI.
+- [X] Installez Octoprint via [RaspberryPiImager](https://www.raspberrypi.com/software/).
+- [X] Initialisez octoprint puis Connectez-vous.
+- [X] Téléchargez et envoyer le fichier Backup dans "Paramètres>Backup&Restore".
+- [X] Redémarrez la raspberry.
+- [X] Dans firmware updater ajouter le nouveau Firmware.
+- [X] Redémarrez l'imprimante.
+
+## Partie 4 : Calibration.
+
+- [X] Extrudeur :
+  - [X] Extrudez 100mm
+  - [X] Mesurez la quantitée réellement extrudé.
+  - [X] Dans Controle>Step>Extruder, prenez la actuelle/100*La quantité réellement extrudé et saisissez cette valeur.
+  - [X] Sauvegardez la configuration.
+- [ ] Axe X et Y :
+- [ ] Axe Z :
+
+## Partie 5 : Direct drive
+
+##Partie 6 : PETG, TPU et ABS
