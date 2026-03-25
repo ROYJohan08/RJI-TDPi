@@ -13,15 +13,16 @@ Code pour une Raspberry pi connecté a une Creality Ender 3
 - [X] [PLA](https://www.amazon.fr/ELEGOO-Filament-Dimensional-Accuracy-Compatible/dp/B0F4871GP4/ref=sr_1_4_sspa?dib=eyJ2IjoiMSJ9.EUKdJhH8N5kMm-71FTptkxWOi6-Ke-pfjUPL8nlOxs6Bza2N8vPjbTCHHgX4zxrPYk3FHUluvWEsjPYghqBPyUbgCOxzjZ6uOBl27RFudAVFh8Jkhhff_0XKhb-Rhcr4Hmz8cs7NRZC3kaQFpRWyiBVrQ0rMwXfit46eQV1ftBOmG10zK9ENGsM2YQ5mWaYU_4U4CtG4Bk6aWdhkNJHaVPiGYitb8r6t_vAF8rLV4-4pi2TcTUuxQqQwJdKxhWyGJd-hvz64adsdW5_g7URnCSeVtF18fNkNXEiralwgSX8.tmTz7LD2ifngWGTYtosgB7Mv661MZ_SXZVsAwTPwQyY&dib_tag=se&keywords=PLA&qid=1774356015&sr=8-4-spons&aref=kQnNZl9jIx&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1).
 - [X] [Visserie M3](https://www.aliexpress.com/ssr/300000512/BundleDeals2?spm=a2g0o.productlist.main.2.70a3ruWkruWkJ6&productIds=1005009877872391:12000050454712739&pha_manifest=ssr&_immersiveMode=true&disableNav=YES&sourceName=SEARCHProduct&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009877872391%7C_p_origin_prod%3A&pvid=696283ab-6ddb-4792-877c-75eece452125).
 
-## Partie 1 : Premiers pas.
+## Premiers pas.
 
-- [X] Montez la Créality Ender 3 selons le manuel.
+- [X] Montez la Créality Ender 3 selons [le manuel](https://github.com/ROYJohan08/RJI-TDPi/blob/main/sources/manuels/Ender3-Montage.pdf). [[TUTO]](https://youtu.be/kMgu58Lt0ME?si=BBegAOYQpIIcsGG6)
 - [X] Branchez l'imprimante.
 - [X] Récuperez la carte micro-SD et installez la sur un ordinateur.
-- [X] Téléchargez le pack de GCodes et décompressez le dans la carte SD.
-- [X] Mettez la carte Micro-SD dans l'imprimante et lancez un a un les impression.
+- [X] Téléchargez [les GCodes](https://github.com/ROYJohan08/RJI-TDPi/tree/main/sources/GCodes) et mettez les dans la carte SD.
+- [X] Mettez la carte Micro-SD dans l'imprimante et lancez une a une les impressions.
 
-## Partie 2 : Level up.
+
+## Impression des améliorations.
 
 - [X] Installez un roulement 608 dans [ZAxisGuide](https://github.com/ROYJohan08/RJI-TDPi/raw/refs/heads/main/sources/GCodes/ZAxisGuide.gcode).
 - [X] Installez un roulement 608 dans [FilamentHolder](https://github.com/ROYJohan08/RJI-TDPi/raw/refs/heads/main/sources/GCodes/FilamentHolder.gcode).
@@ -44,7 +45,7 @@ Code pour une Raspberry pi connecté a une Creality Ender 3
 ## Partie 3 : Configuration.
 
 - [X] Récuperez la carte microSD de la RPI.
-- [X] Installez Octoprint via [RaspberryPiImager](https://www.raspberrypi.com/software/).
+- [X] Installez Octoprint via [RaspberryPiImager](https://www.raspberrypi.com/software/). [[TUTO]](https://www.youtube.com/watch?v=eUOLHOrrqGo)
 - [X] Initialisez octoprint puis Connectez-vous.
 - [X] Téléchargez et envoyer le [fichier Backup](https://github.com/ROYJohan08/RJI-TDPi/raw/refs/heads/main/sources/backups/20260324-134532.zip) dans "Paramètres>Backup&Restore".
 - [X] Redémarrez la raspberry.
