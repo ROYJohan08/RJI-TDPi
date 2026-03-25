@@ -42,6 +42,12 @@ Code pour une Raspberry pi connecté a une Creality Ender 3
 - [X] Connectez le 3DTouch a la carte mère.
 - [X] Branchez l'alimentation de l'imprimante sur le relais de la RPI.
 
+![ZAxisGuide](https://github.com/ROYJohan08/RJI-TDPi/blob/main/sources/images/ZAxisGuide.png)
+![RPI2Case](https://github.com/ROYJohan08/RJI-TDPi/blob/main/sources/images/RPI2Case.png)
+![RPI2CameraHolder](https://github.com/ROYJohan08/RJI-TDPi/blob/main/sources/images/RPI2CameraHolder.JPG)
+![FanCoverMb](https://github.com/ROYJohan08/RJI-TDPi/blob/main/sources/images/FanCoverMb.png)
+![FanCoverAlim](https://github.com/ROYJohan08/RJI-TDPi/blob/main/sources/images/FanCoverAlim.png)
+
 ## Partie 3 : Configuration.
 
 - [X] Récuperez la carte microSD de la RPI.
